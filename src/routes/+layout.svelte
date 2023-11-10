@@ -12,8 +12,8 @@
 </script>
 
 <svelte:head>
-	<title>Blog</title>
-	<link rel="icon" href="https://fav.farm/🔥" />
+	<title>Frank Blank</title>
+	<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 </svelte:head>
 
 <Heading />

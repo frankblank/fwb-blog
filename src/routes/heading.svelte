@@ -8,7 +8,9 @@
 
 <nav class="container mt-8 flex justify-between">
 	<a class="unstyled text-xl" href="/">
-		<b>🔥 Blog</b>
+		<div class="iconHome">
+			<b>Frank Blank</b>
+		</div>
 	</a>
 
 	<div class="flex items-center gap-4">
@@ -35,3 +37,12 @@
 		<LightSwitch />
 	</div>
 </nav>
+<style>
+	.iconHome:before {
+    content: "";
+    display: inline-block;
+    width: 32px; 
+    height: 32px;
+    background: url('../lib/Images/favicon.png');
+	}
+</style>
